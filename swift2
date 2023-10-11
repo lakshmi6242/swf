@@ -1,0 +1,43 @@
+cocoaconferences-swiftui - ConferenceDetail.swift
+CocoaConferences | windows 64-bit (windows  Catalyst) ▼
+Git:
+Commit to master
+✡
+Conference Detail.swift
+Unified viewer
+Do not ignore
+>> 1 difference
+✓✓ Default Changelist 1file swift
+39aa497be64a52d56d05e561989221bed238df8d
+ConferenceDetail.swift ~/Projec
+Your version
+project.pbxproj-/Projects/coco
+58 58
+struct ConferenceDetail: View {
+@ObservedObject var viewModel: ConferenceDetailViewM
+var body: some View {
+59259
+60 60
+61
+61
+VStack (alignment: .leading, spacing: 5.0) {
+Amend
+2 modified
+62 62
+Change spacing
+63 63
+64 64
+65 65
+6666
+VStack (alignment: .leading, spacing: 15.0) {
+HStack {
+Text("")
+LinkButton(viewModel: viewModel.link)
+}
+Text (viewModel.dates)
+Commit
+Commit and Push...
+6767
+68 68
+Text(viewModel.Location)
+HStack {
