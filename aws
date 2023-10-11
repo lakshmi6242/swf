@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+Static void main(string[] args)
+{
+stack st = new stack();
+st.push(1)
+st.push(2)
+st.psuh(3)
+foreach (object obj in st){
+console.writeline(obj);
+}
+console.writeline(); console.writeline();
+console.writeline("The number of elementsin the stack=" + st. count);
+console.writeline("does the stack contain the element 3=" +st .contains(3));
+}
